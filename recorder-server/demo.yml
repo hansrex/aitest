@@ -1,0 +1,9 @@
+---
+                        instances: 1
+                        memory: 512M
+                        applications:
+                          - name: demo
+                            buildpack: java_buildpack
+                            path: \build\libs\demo-0.0.1-SNAPSHOT.jar
+                            services:
+                              - service-registry
